@@ -1,0 +1,190 @@
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <ProjectGuid>{161DF17F-91B6-44D6-CFAD-68056058153A}</ProjectGuid>
+    <OutputType>Exe</OutputType>
+    <NoStandardLibraries>false</NoStandardLibraries>
+    <AssemblyName>ConsoleApplication</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <TargetFrameworkProfile>Client</TargetFrameworkProfile>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <PlatformTarget>x86</PlatformTarget>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <PlatformTarget>x86</PlatformTarget>
+  </PropertyGroup>
+  <PropertyGroup>
+    <RootNamespace>Csharp_variables</RootNamespace>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Xml.Linq" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="var-assignments\01-swapping-variables\01-swapping-variables.sln" />
+    <Content Include="var-assignments\01-swapping-variables\bin\Debug\01-swapping-variables.exe" />
+    <Content Include="var-assignments\01-swapping-variables\bin\Debug\01-swapping-variables.pdb" />
+    <Content Include="var-assignments\01-swapping-variables\obj\Debug\01-swapping-variables.csproj.FileListAbsolute.txt" />
+    <Content Include="var-assignments\01-swapping-variables\obj\Debug\01-swapping-variables.exe" />
+    <Content Include="var-assignments\01-swapping-variables\obj\Debug\01-swapping-variables.pdb" />
+    <Content Include="var-assignments\02-reassign-var\02-reassign-var.sln" />
+    <Content Include="var-assignments\02-reassign-var\bin\Debug\02-reassign-var.exe" />
+    <Content Include="var-assignments\02-reassign-var\bin\Debug\02-reassign-var.pdb" />
+    <Content Include="var-assignments\02-reassign-var\obj\Debug\02-reassign-var.csproj.FileListAbsolute.txt" />
+    <Content Include="var-assignments\02-reassign-var\obj\Debug\02-reassign-var.exe" />
+    <Content Include="var-assignments\02-reassign-var\obj\Debug\02-reassign-var.pdb" />
+    <Content Include="var-assignments\03-rotate-three-varvalues\03-rotate-three-varvalues.sln" />
+    <Content Include="var-assignments\03-rotate-three-varvalues\bin\Debug\03-rotate-three-varvalues.exe" />
+    <Content Include="var-assignments\03-rotate-three-varvalues\bin\Debug\03-rotate-three-varvalues.pdb" />
+    <Content Include="var-assignments\03-rotate-three-varvalues\obj\Debug\03-rotate-three-varvalues.csproj.FileListAbsolute.txt" />
+    <Content Include="var-assignments\03-rotate-three-varvalues\obj\Debug\03-rotate-three-varvalues.exe" />
+    <Content Include="var-assignments\03-rotate-three-varvalues\obj\Debug\03-rotate-three-varvalues.pdb" />
+    <Content Include="var-assignments\04-swap-string\04-swap-string.sln" />
+    <Content Include="var-assignments\04-swap-string\bin\Debug\04-swap-string.exe" />
+    <Content Include="var-assignments\04-swap-string\bin\Debug\04-swap-string.pdb" />
+    <Content Include="var-assignments\04-swap-string\obj\Debug\04-swap-string.csproj.FileListAbsolute.txt" />
+    <Content Include="var-assignments\04-swap-string\obj\Debug\04-swap-string.exe" />
+    <Content Include="var-assignments\04-swap-string\obj\Debug\04-swap-string.pdb" />
+    <Content Include="var-assignments\05-scope-variable\05-scope-variable.sln" />
+    <Content Include="var-assignments\05-scope-variable\bin\Debug\05-scope-variable.exe" />
+    <Content Include="var-assignments\05-scope-variable\bin\Debug\05-scope-variable.pdb" />
+    <Content Include="var-assignments\05-scope-variable\obj\Debug\05-scope-variable.csproj.FileListAbsolute.txt" />
+    <Content Include="var-assignments\05-scope-variable\obj\Debug\05-scope-variable.exe" />
+    <Content Include="var-assignments\05-scope-variable\obj\Debug\05-scope-variable.pdb" />
+    <Content Include="var-practice\bin\Debug\var-practice.exe" />
+    <Content Include="var-practice\bin\Debug\var-practice.pdb" />
+    <Content Include="var-practice\obj\Debug\var-practice.csproj.FileListAbsolute.txt" />
+    <Content Include="var-practice\obj\Debug\var-practice.exe" />
+    <Content Include="var-practice\obj\Debug\var-practice.pdb" />
+    <Content Include="var-practice\var-practice.sln" />
+    <Content Include="variables notes.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="var-assignments\01-swapping-variables\.vs\01-swapping-variables\FileContentIndex\a3994ea8-b209-4e91-ad40-2a2b493c6164.vsidx" />
+    <None Include="var-assignments\01-swapping-variables\.vs\01-swapping-variables\v17\.suo" />
+    <None Include="var-assignments\01-swapping-variables\.vs\01-swapping-variables\v17\DocumentLayout.backup.json" />
+    <None Include="var-assignments\01-swapping-variables\.vs\01-swapping-variables\v17\DocumentLayout.json" />
+    <None Include="var-assignments\01-swapping-variables\01-swapping-variables.csproj" />
+    <None Include="var-assignments\01-swapping-variables\App.config" />
+    <None Include="var-assignments\01-swapping-variables\bin\Debug\01-swapping-variables.exe.config" />
+    <None Include="var-assignments\01-swapping-variables\obj\Debug\01-swapping-variables.csproj.AssemblyReference.cache" />
+    <None Include="var-assignments\01-swapping-variables\obj\Debug\01-swapping-variables.csproj.CoreCompileInputs.cache" />
+    <None Include="var-assignments\01-swapping-variables\obj\Debug\DesignTimeResolveAssemblyReferencesInput.cache" />
+    <None Include="var-assignments\02-reassign-var\.vs\02-reassign-var\FileContentIndex\0eada26d-d487-4dad-bad3-47b3b72ef8ae.vsidx" />
+    <None Include="var-assignments\02-reassign-var\.vs\02-reassign-var\v17\.suo" />
+    <None Include="var-assignments\02-reassign-var\.vs\02-reassign-var\v17\DocumentLayout.backup.json" />
+    <None Include="var-assignments\02-reassign-var\.vs\02-reassign-var\v17\DocumentLayout.json" />
+    <None Include="var-assignments\02-reassign-var\02-reassign-var.csproj" />
+    <None Include="var-assignments\02-reassign-var\App.config" />
+    <None Include="var-assignments\02-reassign-var\bin\Debug\02-reassign-var.exe.config" />
+    <None Include="var-assignments\02-reassign-var\obj\Debug\02-reassign-var.csproj.AssemblyReference.cache" />
+    <None Include="var-assignments\02-reassign-var\obj\Debug\02-reassign-var.csproj.CoreCompileInputs.cache" />
+    <None Include="var-assignments\02-reassign-var\obj\Debug\DesignTimeResolveAssemblyReferencesInput.cache" />
+    <None Include="var-assignments\03-rotate-three-varvalues\.vs\03-rotate-three-varvalues\CopilotIndices\17.14.878.3237\CodeChunks.db" />
+    <None Include="var-assignments\03-rotate-three-varvalues\.vs\03-rotate-three-varvalues\CopilotIndices\17.14.878.3237\SemanticSymbols.db" />
+    <None Include="var-assignments\03-rotate-three-varvalues\.vs\03-rotate-three-varvalues\FileContentIndex\52c94256-df85-423c-a0cb-9f38208e1381.vsidx" />
+    <None Include="var-assignments\03-rotate-three-varvalues\.vs\03-rotate-three-varvalues\v17\.suo" />
+    <None Include="var-assignments\03-rotate-three-varvalues\.vs\03-rotate-three-varvalues\v17\DocumentLayout.backup.json" />
+    <None Include="var-assignments\03-rotate-three-varvalues\.vs\03-rotate-three-varvalues\v17\DocumentLayout.json" />
+    <None Include="var-assignments\03-rotate-three-varvalues\03-rotate-three-varvalues.csproj" />
+    <None Include="var-assignments\03-rotate-three-varvalues\App.config" />
+    <None Include="var-assignments\03-rotate-three-varvalues\bin\Debug\03-rotate-three-varvalues.exe.config" />
+    <None Include="var-assignments\03-rotate-three-varvalues\obj\Debug\03-rotate-three-varvalues.csproj.AssemblyReference.cache" />
+    <None Include="var-assignments\03-rotate-three-varvalues\obj\Debug\03-rotate-three-varvalues.csproj.CoreCompileInputs.cache" />
+    <None Include="var-assignments\03-rotate-three-varvalues\obj\Debug\03-rotate-three-varvalues.exe.config" />
+    <None Include="var-assignments\03-rotate-three-varvalues\obj\Debug\DesignTimeResolveAssemblyReferencesInput.cache" />
+    <None Include="var-assignments\04-swap-string\.vs\04-swap-string\CopilotIndices\17.14.878.3237\CodeChunks.db" />
+    <None Include="var-assignments\04-swap-string\.vs\04-swap-string\CopilotIndices\17.14.878.3237\SemanticSymbols.db" />
+    <None Include="var-assignments\04-swap-string\.vs\04-swap-string\FileContentIndex\5140db35-2da0-40f5-97a6-dff6b2bcea06.vsidx" />
+    <None Include="var-assignments\04-swap-string\.vs\04-swap-string\v17\.suo" />
+    <None Include="var-assignments\04-swap-string\.vs\04-swap-string\v17\DocumentLayout.backup.json" />
+    <None Include="var-assignments\04-swap-string\.vs\04-swap-string\v17\DocumentLayout.json" />
+    <None Include="var-assignments\04-swap-string\04-swap-string.csproj" />
+    <None Include="var-assignments\04-swap-string\App.config" />
+    <None Include="var-assignments\04-swap-string\bin\Debug\04-swap-string.exe.config" />
+    <None Include="var-assignments\04-swap-string\obj\Debug\04-swap-string.csproj.AssemblyReference.cache" />
+    <None Include="var-assignments\04-swap-string\obj\Debug\04-swap-string.csproj.CoreCompileInputs.cache" />
+    <None Include="var-assignments\04-swap-string\obj\Debug\04-swap-string.exe.config" />
+    <None Include="var-assignments\04-swap-string\obj\Debug\DesignTimeResolveAssemblyReferencesInput.cache" />
+    <None Include="var-assignments\05-scope-variable\.vs\05-scope-variable\CopilotIndices\17.14.878.3237\CodeChunks.db" />
+    <None Include="var-assignments\05-scope-variable\.vs\05-scope-variable\CopilotIndices\17.14.878.3237\SemanticSymbols.db" />
+    <None Include="var-assignments\05-scope-variable\.vs\05-scope-variable\FileContentIndex\924f82cc-8231-4497-b850-b143d2660a16.vsidx" />
+    <None Include="var-assignments\05-scope-variable\.vs\05-scope-variable\v17\.suo" />
+    <None Include="var-assignments\05-scope-variable\.vs\05-scope-variable\v17\DocumentLayout.backup.json" />
+    <None Include="var-assignments\05-scope-variable\.vs\05-scope-variable\v17\DocumentLayout.json" />
+    <None Include="var-assignments\05-scope-variable\05-scope-variable.csproj" />
+    <None Include="var-assignments\05-scope-variable\App.config" />
+    <None Include="var-assignments\05-scope-variable\bin\Debug\05-scope-variable.exe.config" />
+    <None Include="var-assignments\05-scope-variable\obj\Debug\05-scope-variable.csproj.AssemblyReference.cache" />
+    <None Include="var-assignments\05-scope-variable\obj\Debug\05-scope-variable.csproj.CoreCompileInputs.cache" />
+    <None Include="var-assignments\05-scope-variable\obj\Debug\05-scope-variable.exe.config" />
+    <None Include="var-assignments\05-scope-variable\obj\Debug\DesignTimeResolveAssemblyReferencesInput.cache" />
+    <None Include="var-practice\App.config" />
+    <None Include="var-practice\bin\Debug\var-practice.exe.config" />
+    <None Include="var-practice\obj\Debug\DesignTimeResolveAssemblyReferencesInput.cache" />
+    <None Include="var-practice\obj\Debug\var-practice.csproj.AssemblyReference.cache" />
+    <None Include="var-practice\obj\Debug\var-practice.csproj.CoreCompileInputs.cache" />
+    <None Include="var-practice\obj\Debug\var-practice.exe.config" />
+    <None Include="var-practice\var-practice.csproj" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="var-assignments\01-swapping-variables\obj\Debug\.NETFramework,Version=v4.7.2.AssemblyAttributes.cs" />
+    <Compile Include="var-assignments\01-swapping-variables\Program.cs" />
+    <Compile Include="var-assignments\01-swapping-variables\Properties\AssemblyInfo.cs" />
+    <Compile Include="var-assignments\02-reassign-var\obj\Debug\.NETFramework,Version=v4.7.2.AssemblyAttributes.cs" />
+    <Compile Include="var-assignments\02-reassign-var\Program.cs" />
+    <Compile Include="var-assignments\02-reassign-var\Properties\AssemblyInfo.cs" />
+    <Compile Include="var-assignments\03-rotate-three-varvalues\obj\Debug\.NETFramework,Version=v4.7.2.AssemblyAttributes.cs" />
+    <Compile Include="var-assignments\03-rotate-three-varvalues\Program.cs" />
+    <Compile Include="var-assignments\03-rotate-three-varvalues\Properties\AssemblyInfo.cs" />
+    <Compile Include="var-assignments\04-swap-string\obj\Debug\.NETFramework,Version=v4.7.2.AssemblyAttributes.cs" />
+    <Compile Include="var-assignments\04-swap-string\Program.cs" />
+    <Compile Include="var-assignments\04-swap-string\Properties\AssemblyInfo.cs" />
+    <Compile Include="var-assignments\05-scope-variable\obj\Debug\.NETFramework,Version=v4.7.2.AssemblyAttributes.cs" />
+    <Compile Include="var-assignments\05-scope-variable\Program.cs" />
+    <Compile Include="var-assignments\05-scope-variable\Properties\AssemblyInfo.cs" />
+    <Compile Include="var-practice\obj\Debug\.NETFramework,Version=v4.7.2.AssemblyAttributes.cs" />
+    <Compile Include="var-practice\Program.cs" />
+    <Compile Include="var-practice\Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include=".vs\Csharp-variables\v17\" />
+    <Folder Include="var-assignments\01-swapping-variables\bin\Release\" />
+    <Folder Include="var-assignments\01-swapping-variables\obj\Debug\TempPE\" />
+    <Folder Include="var-assignments\02-reassign-var\bin\Release\" />
+    <Folder Include="var-assignments\02-reassign-var\obj\Debug\TempPE\" />
+    <Folder Include="var-assignments\03-rotate-three-varvalues\bin\Release\" />
+    <Folder Include="var-assignments\03-rotate-three-varvalues\obj\Debug\TempPE\" />
+    <Folder Include="var-assignments\04-swap-string\bin\Release\" />
+    <Folder Include="var-assignments\04-swap-string\obj\Debug\TempPE\" />
+    <Folder Include="var-assignments\05-scope-variable\bin\Release\" />
+    <Folder Include="var-assignments\05-scope-variable\obj\Debug\TempPE\" />
+    <Folder Include="var-practice\bin\Release\" />
+    <Folder Include="var-practice\obj\Debug\TempPE\" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSHARP.Targets" />
+  <ProjectExtensions>
+    <VisualStudio AllowExistingFolder="true" />
+  </ProjectExtensions>
+</Project>
