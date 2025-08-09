@@ -1,0 +1,29 @@
+MODIFIERS
+├── Variable Modifiers
+│   ├── const
+│   ├── readonly
+│   ├── var
+│   └── dynamic
+│
+├── Access Modifiers
+│   ├── public
+│   ├── private
+│   ├── protected
+│   └── internal
+│
+└── Property Accessors (used inside classes)
+    ├── get
+    ├── set
+    └── init
+
+TYPES
+├── class
+├── record
+└── struct
+
+| Category          | Types                                                        |
+| ----------------- | ------------------------------------------------------------ |
+| Reference Types   | class, record, interface, delegate, abstract class           |
+| Value Types       | struct, enum, record struct                                  |
+| Specialized Types | enum, delegate, interface                                    |
+
