@@ -1,12 +1,12 @@
-﻿# C# Learning – Beginner Level
+﻿# CSharp-Learning
+This repository is my personal journey of learning **C# step by step**.  
 
-This folder contains my practice and assignment code while learning the basics of C#.
+It is organized in phases:
+- **01-basics** → Core C# fundamentals
+- **02-midlevel**
+- **03-intermediate**
+- **04-advanced**
+- **05-professional**
+- **projects** → Mini and major projects to apply learning
 
-## 📌 What's included
-
-- Topics like variables, data types, operators, etc.
-- Small practice programs and basic logic building
-- Assignments I've worked on
-- My personal notes (not visible in this repo)
-
-I'm still learning, so this will grow over time. Feedback and suggestions are always welcome.
+My focus is on practicing consistently and tracking progress publicly.
