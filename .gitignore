@@ -5,3 +5,7 @@
 **/*.suo
 **/notes.txt
 *.txt
+
+*.sln
+**/App.config
+**/Properties/
