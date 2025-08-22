@@ -11,7 +11,7 @@ namespace _03_login_system
             Console.Write("Enter username: ");
             string userName = Console.ReadLine()?.ToLower();
             Console.Write("Enter password: ");
-            string password = Console.ReadLine();
+            string password = Console.ReadLine()    ;
 
             if (string.IsNullOrWhiteSpace(userName) || string.IsNullOrWhiteSpace(password))
             {
@@ -26,6 +26,7 @@ namespace _03_login_system
                 Console.WriteLine("Your username or password didn't match.");
             }
 
+            //just for some fun
             //if (string.IsNullOrWhiteSpace(userName) || string.IsNullOrWhiteSpace(password))
             //{
             //    Console.WriteLine("Invalid input!");
