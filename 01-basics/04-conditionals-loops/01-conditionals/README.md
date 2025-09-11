@@ -1,11 +1,11 @@
 ﻿# C# Conditionals  
-**Folder:** 01-basics/04-conditionals  
+**Folder:** 01-basics/04-conditionals-loops/01-conditionals  
 **Description:** Practice programs covering conditional statements (`if`, `if-else`, `else-if`, `nested if`, and `switch`) for decision-making in code.  
 
 ---
 
 ## If Statement  
-**Path:** `04-conditionals/if/`  
+**Path:** `04-conditionals-loops/01-conditionals/if/`  
 **Description:** Execute a block of code when a single condition evaluates to `true`.  
 **Programs / Examples:**  
 - Positive number check  
@@ -15,7 +15,7 @@
 ---
 
 ## If-Else Statement  
-**Path:** `04-conditionals/if-else/`  
+**Path:** `04-conditionals-loops/01-conditionals/if-else/`  
 **Description:** Execute one block if the condition is `true`, otherwise execute the alternative block.  
 **Programs / Examples:**  
 - Pass/Fail check  
@@ -25,7 +25,7 @@
 ---
 
 ## Else-If Ladder  
-**Path:** `04-conditionals/else-if-ladder/`  
+**Path:** `04-conditionals-loops/01-conditionals/else-if-ladder/`  
 **Description:** Chain multiple conditions where only one block executes when a condition matches.  
 **Programs / Examples:**  
 - Number sign checker (positive, negative, zero)  
@@ -35,7 +35,7 @@
 ---
 
 ## Nested If  
-**Path:** `04-conditionals/nested-if/`  
+**Path:** `04-conditionals-loops/01-conditionals/nested-if/`  
 **Description:** Place one `if` (or `if-else`) inside another for hierarchical decision making.  
 **Programs / Examples:**  
 - Login system with username & password  
@@ -45,7 +45,7 @@
 ---
 
 ## Switch Statement  
-**Path:** `04-conditionals/switch/`  
+**Path:** `04-conditionals-loops/01-conditionals/switch/`  
 **Description:** Select one case to execute from multiple possible options.  
 **Programs / Examples:**  
 - Day of the week  
@@ -55,7 +55,7 @@
 ---
 
 ## Showcase Project: Mini ATM System  
-**Path:** `04-conditionals/mini-atm-system/`  
+**Path:** `04-conditionals-loops/01-conditionals/mini-atm-system/`  
 **Description:** A mini ATM simulation combining multiple conditional statements.  
 **Features:**  
 - PIN validation  
