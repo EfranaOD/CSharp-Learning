@@ -7,14 +7,14 @@ namespace _01Square
         public static void Square(int number)
         {
             number = number*number;
-            Console.WriteLine($"Value inside method: {number}");
+            Console.WriteLine($"Square value inside method: {number}");
         }
         static void Main(string[] args)
         {
             int number = 50;
             Square(number);
 
-            Console.WriteLine($"Value outside method: {number}");
+            Console.WriteLine($"Original value outside method: {number}");
         }
     }
 }
