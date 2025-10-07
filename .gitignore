@@ -9,3 +9,6 @@
 *.sln
 **/App.config
 **/Properties/
+
+**/AssemblyInfo.cs
+**/App.xaml.cs
