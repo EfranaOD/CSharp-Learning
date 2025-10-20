@@ -57,7 +57,7 @@ namespace _03_shift_practice
             // 0 0 0 0  0 1 0 0 -> 4
             // -4
 
-            // shortcut for right shift on negative number, num>>k num / 2^k -> rounded to ceil  
+            // shortcut for right shift on negative number, num>>k num / 2^k -> rounded to negative infinite numbers  
 
         }
     }

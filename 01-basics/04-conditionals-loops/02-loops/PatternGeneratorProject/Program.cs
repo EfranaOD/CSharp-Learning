@@ -271,7 +271,9 @@ namespace PatternGeneratorProject
                         break;
 
                     case 9:
-                        Console.WriteLine("Exiting...");
+                        Console.ForegroundColor = ConsoleColor.DarkGray;
+                        Console.Write("\n\nExiting...");
+                        Console.ResetColor();
                         return;
 
                     default:

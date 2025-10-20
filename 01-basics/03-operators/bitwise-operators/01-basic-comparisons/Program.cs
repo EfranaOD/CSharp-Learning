@@ -23,7 +23,7 @@ namespace _01_basic_comparisons
 
             if(!int.TryParse(userInput1, out int result1) || !int.TryParse(userInput2, out int result2))
             {
-                Console.WriteLine("Invalid input formate.");
+                Console.WriteLine("Invalid input format.");
                 return;
             }
 

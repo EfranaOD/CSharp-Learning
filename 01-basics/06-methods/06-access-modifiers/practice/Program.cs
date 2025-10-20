@@ -49,16 +49,22 @@ namespace practice
             //    Private method: CalculateInterest() → called internally only.
             //Demonstrate how access modifiers control visibility.
 
-            BankAccount account = new BankAccount();
+            //BankAccount account = new BankAccount();
 
-            Console.Write("Enter amount for withdrawal: ");
-            if (double.TryParse(Console.ReadLine(), out double withdrawAmt))
-                account.Withdraw(withdrawAmt);
+            //Console.Write("Enter amount for withdrawal: ");
+            //if (double.TryParse(Console.ReadLine(), out double withdrawAmt))
+            //    account.Withdraw(withdrawAmt);
 
-            Console.Write("Enter amount for deposit: ");
-            if (double.TryParse(Console.ReadLine(), out double depositAmt))
-                account.Deposit(depositAmt);
+            //Console.Write("Enter amount for deposit: ");
+            //if (double.TryParse(Console.ReadLine(), out double depositAmt))
+            //    account.Deposit(depositAmt);
 
+            string name = "Efrana";
+            DateTime date = DateTime.Now;
+            string pattern = $"Welcome {name}, today is {date:T}";
+            string result = $"{pattern}";
+
+            Console.WriteLine(result);
         }
     }
 }

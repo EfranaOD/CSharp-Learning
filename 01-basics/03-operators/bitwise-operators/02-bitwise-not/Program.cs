@@ -20,7 +20,7 @@ namespace _02_bitwise_not
             // in 8 bits it would look like this:
             // 1 1 1 1  1 0 1 0 -> ? so, whats happenening here is, int is 'SIGNED', meaning, it consists of 'Negatives' as well as 'Positives'
             //                       negatives in int were calculated while storing like this
-            //                       the left most bit, most significant bit(MSB), is considered as the sign, like +/- depending on the digit.
+            //                       the left most bit, most significant bit(MSB), is considered as the sign, like +/- depending on the digit 0/1.
             //                       if the digit 1, then MSB is considered as negative sign. if 0, then positive.
             // how is ~5 after its bits gets flipped interpreted by the compiler:
             // MSB, if negative, is substracted from the other bits like this,

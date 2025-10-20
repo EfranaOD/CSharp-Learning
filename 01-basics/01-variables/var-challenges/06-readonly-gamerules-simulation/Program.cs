@@ -79,6 +79,7 @@ namespace _06_readonly_rules_simulation
             }
             Console.WriteLine($"Your score: {gameSettings.Score}/{maxAttacks}");
 
+            //this is me testing mechanics. not ux friendly... but welp. 
             gameSettings.PauseGame();
             gameSettings.IncreaseScore(10);
             gameSettings.ResumeGame();

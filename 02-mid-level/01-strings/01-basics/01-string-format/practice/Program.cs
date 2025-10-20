@@ -101,7 +101,7 @@ namespace practice
             }
             private void ShowFormattedResponse(string? format, string detail, string topic)
             {
-                if(string.IsNullOrWhiteSpace(topic)) { topic = "[unknown]"; }
+                if (string.IsNullOrWhiteSpace(topic)) { topic = "[unknown]"; }
                 if (string.IsNullOrWhiteSpace(detail)) { detail = "[unknown]"; }
                 if (!string.IsNullOrWhiteSpace(format))
                 {

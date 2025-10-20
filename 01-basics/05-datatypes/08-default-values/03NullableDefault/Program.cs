@@ -15,6 +15,7 @@ namespace _03NullableDefault
         }
         static void Main(string[] args)
         {
+            Console.WriteLine(System.Runtime.InteropServices.RuntimeInformation.FrameworkDescription);
             //Declare int? n; as a field in a class.
             //Print its value before assigning. Confirm it prints null.
 

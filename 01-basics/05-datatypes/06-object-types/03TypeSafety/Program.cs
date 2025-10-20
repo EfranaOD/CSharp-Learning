@@ -14,9 +14,9 @@ namespace _03TypeSafety
 
             //double intnumber = (double)number; //System.InvalidCastException: 'Specified cast is not valid.'
 
-            double intNumber = Convert.ToDouble(number);
+            double convertedNumber = Convert.ToDouble(number);
 
-            Console.WriteLine($"Value: {intNumber} - Type: {intNumber.GetType()}");
+            Console.WriteLine($"Value: {convertedNumber} - Type: {convertedNumber.GetType()}");
         }
     }
 }

@@ -95,7 +95,7 @@ namespace dynamic_inventory_tracker
             invnt.AddItems("dazai");
             invnt.DisplayItems();
             invnt.SearchItems();
-            invnt.RemoveItems(5);
+            invnt.RemoveItems(5); //testing mechanics...
             invnt.DisplayItems();
         }
     }
