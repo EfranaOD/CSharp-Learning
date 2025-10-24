@@ -12,3 +12,10 @@
 
 ---
 
+## Escape Sequence  
+**Path:** `01-strings/01-basics/02-escape-sequence/`  
+**Description:** Shows practical use of escape sequences to represent characters and actions that can’t be typed directly. Implements a console program demonstrating tabular output, colored text, and use of special characters like newline (`\n`), tab (`\t`), backslash (`\\`), backspace (`\b`), and quotes (`\"`).  
+**Program / Example:**  
+- **Console Formatting** → Creates visually structured output with columns, colored text, and messages using escape sequences. Highlights precise text alignment, use of multiple escape characters in one string, and combining with console color manipulation.
+
+---
