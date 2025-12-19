@@ -34,7 +34,7 @@ namespace practice
             //  Path: C:\Game\Data
             //  Player: Efrana OD
 
-            Console.ForegroundColor = ConsoleColor.DarkGray;
+            Console.ForegroundColor = ConsoleColor.Gray;
             Console.Write(@"//Mini assignment:");
             Console.ResetColor();
 
