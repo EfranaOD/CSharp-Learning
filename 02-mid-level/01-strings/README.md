@@ -16,6 +16,14 @@
 **Path:** `01-strings/01-basics/02-escape-sequence/`  
 **Description:** Shows practical use of escape sequences to represent characters and actions that can’t be typed directly. Implements a console program demonstrating tabular output, colored text, and use of special characters like newline (`\n`), tab (`\t`), backslash (`\\`), backspace (`\b`), and quotes (`\"`).  
 **Program / Example:**  
-- **Console Formatting** → Creates visually structured output with columns, colored text, and messages using escape sequences. Highlights precise text alignment, use of multiple escape characters in one string, and combining with console color manipulation.
+- **Console Formatting + Escape Use Cases** → Displays a table using `\t`, removes characters using `\b`, prints valid Windows path using `\\`, and shows quotes inside text using `\"`, along with colored console output for clarity.
+
+---
+
+## Verbatim String  
+**Path:** `01-strings/01-basics/03-verbatim-string/`  
+**Description:** Shows how verbatim strings (`@""`) preserve text exactly as written — including newlines, tabs, and backslashes. This removes the need for escape sequences when working with file paths and formatted text blocks. Also demonstrates quoting inside verbatim strings using doubled quotes (`""`).  
+**Program / Example:**  
+- **File Paths & Multi-line Text** → Uses `@` to cleanly write file paths without `\\` and display text on multiple lines exactly as typed. Also includes quoted dialogue and a rewritten portion of the escape-sequence program to show how verbatim strings improve readability and reduce escaping complexity.
 
 ---
