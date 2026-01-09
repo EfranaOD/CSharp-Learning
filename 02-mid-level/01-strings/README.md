@@ -81,7 +81,7 @@
 ---
 
 ## Building Strings Efficiently (StringBuilder)  
-**Path:** `01-strings/03-stringbuilder/`  
+**Path:** `01-strings/05-stringbuilder/`  
 **Description:** Demonstrates efficient string construction using `StringBuilder` instead of repeated string concatenation.  
 **Program / Example:**  
 - Builds a sentence word by word using `StringBuilder.Append()`.  
