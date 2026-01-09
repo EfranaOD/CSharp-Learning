@@ -80,6 +80,16 @@
 
 ---
 
+## Building Strings Efficiently (StringBuilder)  
+**Path:** `01-strings/03-stringbuilder/`  
+**Description:** Demonstrates efficient string construction using `StringBuilder` instead of repeated string concatenation.  
+**Program / Example:**  
+- Builds a sentence word by word using `StringBuilder.Append()`.  
+- Modifies the sentence dynamically using `Insert()`, `Remove()`, and `Replace()`.  
+- Outputs the final constructed sentence with console formatting, highlighting how mutable string operations work efficiently.
+
+---
+
 ## Regular Expressions (Regex)  
 **Path:** `01-strings/06-regex/`  
 **Description:** Demonstrates how to use Regular Expressions for pattern matching, validation, extraction, grouping, and dynamic text masking in real-world scenarios.  
